@@ -1,6 +1,6 @@
 ### Hi there, I'm Feiyang! 👋
 
-🚀 **AI Application Engineer | 985 CS Graduate|Tsinghua University Master**
+🚀 **AI Application Engineer | 985 CS Graduate | Tsinghua University Master**
 
 I am passionate about building **Enterprise-grade AI Agents** and **High-performance Systems**. Currently focused on **RAG**, **LLM Orchestration**, and **Database Internals**.
 
