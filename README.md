@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=660874&height=150&section=header&text=Feiyang%20Liu&fontSize=38&fontColor=ffffff&fontAlignY=36&desc=Multimodal%20Video%20%26%20AIGC%20%C2%B7%20THU-CVML&descSize=16&descColor=ffffff&descAlignY=56&descAlign=50&animation=twinkling" alt="header"/>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsinghua_University_Logo.svg/120px-Tsinghua_University_Logo.svg.png" alt="Tsinghua University" width="72"/>
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/tsinghua-logo.svg" alt="Tsinghua University" width="80"/>
 
 <br/>
 
@@ -73,7 +73,7 @@ Sparse MoE merging without pooling raw data (vision/classification setting; comp
 
 #### Education
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsinghua_University_Logo.svg/24px-Tsinghua_University_Logo.svg.png" alt="" align="left" width="28" style="margin-right:8px"/>
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/tsinghua-logo.svg" alt="" width="26" align="left"/>
 
 - **Tsinghua University** — M.S., Electronic Information (2026–2028), THU-CVML  
 - **Northeastern University** — B.S., Computer Science and Technology (2021–2025)
