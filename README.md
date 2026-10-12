@@ -57,8 +57,8 @@
 
 ### 🎓 Education
 
-- **2026 – 2028** · M.S., Electronic Information · **Tsinghua University** (THU-CVML)
-- **2021 – 2025** · B.S., Computer Science and Technology · **Northeastern University**
+- M.S., Electronic Information · **Tsinghua University**
+- B.S., Computer Science and Technology · **Northeastern University**
 
 ---
 
