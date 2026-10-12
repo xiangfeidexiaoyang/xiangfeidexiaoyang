@@ -32,19 +32,26 @@
 
 ### 📄 Manuscripts
 
-| | |
-|:---|:---|
-| 🎬 | **Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Event-level group-relative advantages for physics-aligned video RL; DanceGRPO with a Wan2.2-class TI2V backbone.</sub> |
-| 🎞️ | **Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Training-free scheduling of far-memory injection along the denoising trajectory for few-step autoregressive video.</sub> |
-| 🧩 | **HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Sparse MoE merging with a shared trunk and training-free routing without pooling raw data.</sub> |
+> 🎬 **Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation**  
+> *Feiyang Liu* (first author) · manuscript in preparation  
+>  
+> Event-level group-relative advantages for physics-aligned video RL; DanceGRPO with a Wan2.2-class TI2V backbone.
+
+> 🎞️ **Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators**  
+> *Feiyang Liu* (first author) · manuscript in preparation  
+>  
+> Training-free scheduling of far-memory injection along the denoising trajectory for few-step autoregressive video.
+
+> 🧩 **HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models**  
+> *Feiyang Liu* (first author) · manuscript in preparation  
+>  
+> Sparse MoE merging with a shared trunk and training-free routing without pooling raw data.
 
 ---
 
 ### 💻 Selected projects
 
-| Project | Description |
-|:--|:--|
-| [robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen) | 🤖 Physics-anchored robot manipulation **video generation** (WAM-oriented) |
+> 🤖 **[robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen)** — physics-anchored robot manipulation **video generation** (WAM-oriented)
 
 ---
 
