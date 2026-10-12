@@ -8,7 +8,7 @@ Advisor: [Prof. Chun Yuan](https://thu-cvml.github.io/Overview/Professor/)
 
 ---
 
-**Research interests.** Learning algorithms for generative models and large-scale model training: reinforcement learning with structured credit assignment (physical events, agent sub-goals), post-training pipelines (SFT, GRPO, on-policy distillation), and video diffusion / flow matching (including physics-aware generation and long-horizon consistency).
+**Research interests.** Learning algorithms for generative models and large-scale model training: reinforcement learning with structured credit assignment (physical events, agent sub-goals), post-training pipelines (SFT, GRPO, on-policy distillation), and video diffusion / flow matching (including physics-aware generation, long-horizon consistency, and when far memory should enter few-step denoising).
 
 ---
 
