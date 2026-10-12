@@ -1,36 +1,72 @@
-## Feiyang Liu
+<h1 align="center">Feiyang Liu</h1>
+<p align="center"><strong>M.S. candidate</strong> · Electronic Information · Tsinghua University</p>
+<p align="center"><em>Multimodal video generation · diffusion & flow · post-training</em></p>
 
-**M.S. candidate**, Electronic Information  
-[Computer Application Technology Laboratory](https://thu-cvml.github.io/), Tsinghua University  
-[THU-CVML](https://thu-cvml.github.io/) · Advisor: [Prof. Chun Yuan](https://thu-cvml.github.io/Overview/Professor/)
+<p align="center">
+  <a href="mailto:liufy26@mails.tsinghua.edu.cn">
+    <img src="https://img.shields.io/badge/Email-liufy26%40mails.tsinghua.edu.cn-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://thu-cvml.github.io/">
+    <img src="https://img.shields.io/badge/THU--CVML-Lab-660874?style=flat-square&logo=readthedocs&logoColor=white" alt="Lab"/>
+  </a>
+  <a href="https://github.com/xiangfeidexiaoyang">
+    <img src="https://img.shields.io/badge/GitHub-xiangfeidexiaoyang-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-`liufy26@mails.tsinghua.edu.cn`
+<p align="center">
+  🏛️ <a href="https://thu-cvml.github.io/">Computer Application Technology Laboratory</a>
+  · 👨‍🏫 Advisor: <a href="https://thu-cvml.github.io/Overview/Professor/">Prof. Chun Yuan</a>
+</p>
 
 ---
 
-### Research
+### 🔬 Research interests
 
-Multimodal **video generation** (text-/image-to-video, diffusion and flow matching, autoregressive T2V/TI2V), **long-horizon memory** and consistency, and physics-aware multimodal evaluation. **Post-training** for generative models (SFT, GRPO, on-policy distillation), with emphasis on structured credit assignment for video and agent rollouts.
+> Multimodal **video AIGC** — text-/image-to-video, diffusion and flow matching, autoregressive **T2V / TI2V**, long-horizon **memory** and consistency, physics-aware evaluation.  
+> **Post-training** (SFT, GRPO, on-policy distillation) with structured credit assignment for video and multi-step agents.
 
-### Manuscripts
+`Python` · `PyTorch` · `verl` · `vLLM` · `Wan2.2 / DanceGRPO` · `LaTeX`
 
-**Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation**  
-*Feiyang Liu* (first author) · manuscript in preparation  
-Event-level group-relative advantages for physics-aligned video RL; DanceGRPO with a Wan2.2-class TI2V backbone.
+---
 
-**Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators**  
-*Feiyang Liu* (first author) · manuscript in preparation  
-Training-free scheduling of far-memory injection along the denoising trajectory for few-step autoregressive video.
+### 📄 Manuscripts
 
-**HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models**  
-*Feiyang Liu* (first author) · manuscript in preparation  
-Sparse MoE merging with a shared trunk and training-free routing without pooling raw data.
+| | |
+|:---|:---|
+| 🎬 | **Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Event-level group-relative advantages for physics-aligned video RL; DanceGRPO with a Wan2.2-class TI2V backbone.</sub> |
+| 🎞️ | **Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Training-free scheduling of far-memory injection along the denoising trajectory for few-step autoregressive video.</sub> |
+| 🧩 | **HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models**<br/>*Feiyang Liu* (first author) · manuscript in preparation<br/><sub>Sparse MoE merging with a shared trunk and training-free routing without pooling raw data.</sub> |
 
-### Projects
+---
 
-- **[robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen)** — physics-anchored robot manipulation video generation (WAM-oriented).
+### 💻 Selected projects
 
-### Education
+| Project | Description |
+|:--|:--|
+| [robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen) | 🤖 Physics-anchored robot manipulation **video generation** (WAM-oriented) |
 
-- **Tsinghua University** — M.S., Electronic Information (THU-CVML), 2026–2028  
-- **Northeastern University** — B.S., Computer Science and Technology, 2021–2025  
+---
+
+### 🎓 Education
+
+- **2026 – 2028** · M.S., Electronic Information · **Tsinghua University** (THU-CVML)
+- **2021 – 2025** · B.S., Computer Science and Technology · **Northeastern University**
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=xiangfeidexiaoyang&show_icons=true&theme=graywhite&hide_rank=true&hide=stars,contribs&count_private=false" height="150" alt="GitHub stats"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiangfeidexiaoyang&layout=compact&theme=graywhite&hide_rank=true" height="150" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg"/>
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</p>
+
+<p align="center"><sub>⭐️ From <a href="https://github.com/xiangfeidexiaoyang">xiangfeidexiaoyang</a></sub></p>
