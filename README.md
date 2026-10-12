@@ -1,16 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,18,21,24&height=140&section=header&text=Feiyang%20Liu&fontSize=38&fontAlignY=38&desc=M.S.%20Student%20%C2%B7%20THU-CVML%20%C2%B7%20Tsinghua%20University&descAlignY=58&descAlign=50&animation=twinkling" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=660874&height=150&section=header&text=Feiyang%20Liu&fontSize=38&fontColor=ffffff&fontAlignY=36&desc=Multimodal%20Video%20%26%20AIGC%20%C2%B7%20THU-CVML&descSize=16&descColor=ffffff&descAlignY=56&descAlign=50&animation=twinkling" alt="header"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=1F3864&center=true&vCenter=true&width=520&lines=Generative+models+%26+video+diffusion;Post-training+%28SFT%2C+GRPO%2C+OPD%29;Structured+credit+assignment+for+RL" alt="Typing SVG" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsinghua_University_Logo.svg/120px-Tsinghua_University_Logo.svg.png" alt="Tsinghua University" width="72"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=111827&background=FFFFFF&center=true&vCenter=true&width=560&lines=Multimodal+video+generation+%26+AIGC;text-to-video+%2F+TI2V+%C2%B7+diffusion+%26+flow+matching;Long-horizon+video+%C2%B7+physics-aware+world+models;Post-training+%28GRPO%2C+OPD%29+for+generative+models" alt="Typing SVG" />
 
 <br/>
 
 <a href="mailto:liufy26@mails.tsinghua.edu.cn">
-  <img src="https://img.shields.io/badge/Email-liufy26%40mails.tsinghua.edu.cn-1f3864?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-liufy26%40mails.tsinghua.edu.cn-660874?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://thu-cvml.github.io/">
-  <img src="https://img.shields.io/badge/Lab-THU--CVML-2563eb?style=for-the-badge&logo=readthedocs&logoColor=white" alt="THU-CVML"/>
+  <img src="https://img.shields.io/badge/Lab-THU--CVML-4c1d95?style=for-the-badge&logo=readthedocs&logoColor=white" alt="THU-CVML"/>
 </a>
 <a href="https://github.com/xiangfeidexiaoyang">
   <img src="https://img.shields.io/badge/GitHub-xiangfeidexiaoyang-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -20,9 +24,9 @@
 
 <br/>
 
-**Affiliation.** Computer Application Technology Laboratory, Tsinghua University · Advisor: [Prof. Chun Yuan](https://thu-cvml.github.io/Overview/Professor/)
+**Affiliation.** Computer Application Technology Laboratory, **Tsinghua University** · Advisor: [Prof. Chun Yuan](https://thu-cvml.github.io/Overview/Professor/)
 
-**Research interests.** Learning algorithms for generative models and large-scale training: structured credit assignment in RL (physical events, agent sub-goals), post-training (SFT, GRPO, on-policy distillation), and video diffusion / flow matching (physics-aware generation, long-horizon consistency, denoise-step scheduling for far memory).
+**Research interests.** **Multimodal generative AI** with a focus on **video AIGC**: text-/image-conditioned video diffusion and flow matching, long-horizon and autoregressive T2V/TI2V, memory and consistency for world-like rollouts, and physics-aware multimodal evaluation. I also work on **post-training** (SFT, GRPO, on-policy distillation) when it improves generative quality—especially event-structured RL for video and agent rollouts.
 
 ---
 
@@ -34,15 +38,15 @@
 
 *Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation*  
 **First author** · manuscript in preparation  
-Group-relative advantages over **physical event spans** (contact, collision, free fall, static segments) rather than full clips; built on DanceGRPO with a Wan2.2-class video backbone, with PhysRVG / Physics-IQ–style evaluation and quality constraints.
-
-*HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models*  
-**First author** · manuscript in preparation  
-Shared trunk with low-rank, site-specific attention / classification heads and a training-free router from input–subspace alignment; targets federated-style deployment without pooling raw data.
+**Video AIGC + RL:** group-relative advantages over **physical event spans** (contact, collision, free fall, static segments) instead of full clips; built on DanceGRPO with a **Wan2.2-class TI2V** backbone, evaluated on PhysRVG / Physics-IQ with separate quality metrics.
 
 *Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators*  
 **First author** · manuscript in preparation  
-For frozen few-step autoregressive video models, **when** retrieved far memory is exposed along the denoising trajectory—not only **what** is retrieved—controls the trade-off between revisit identity and scene progression. **Late Forcing** is a training-free schedule that injects far memory only at low-noise steps, withholds it early in the chunk, and optionally re-ranks retrieval candidates with a memory-free first-step draft; designed to compose with existing section-, layer-, and query-level memory routers under fixed NFE.
+**Long-horizon video:** for frozen few-step autoregressive T2V models, **when** far memory enters the denoising trajectory controls identity vs. scene progression. Training-free **Late Forcing** injects memory at low-noise steps only, with optional draft-based retrieval re-ranking; composes with existing memory routers at fixed NFE.
+
+*HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models*  
+**First author** · manuscript in preparation  
+Sparse MoE merging without pooling raw data (vision/classification setting; complementary to the video line above).
 
 </td>
 </tr>
@@ -54,14 +58,14 @@ For frozen few-step autoregressive video models, **when** retrieved far memory i
 
 | Repository | Description |
 |------------|-------------|
-| [robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen) | Physics-anchored robot manipulation video generation (WAM-oriented pipeline) |
+| [robot_phys_video_gen](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen) | **Multimodal video AIGC:** physics-anchored robot manipulation video generation (WAM-oriented pipeline) |
 
 ---
 
 <h3 align="center">Tools</h3>
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,linux,docker,git,latex,vscode&perline=8&theme=light" alt="skills"/>
+    <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,linux,docker,git,latex,vscode&perline=8&theme=dark" alt="skills"/>
   </a>
 </div>
 
@@ -69,8 +73,12 @@ For frozen few-step autoregressive video models, **when** retrieved far memory i
 
 #### Education
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsinghua_University_Logo.svg/24px-Tsinghua_University_Logo.svg.png" alt="" align="left" width="28" style="margin-right:8px"/>
+
 - **Tsinghua University** — M.S., Electronic Information (2026–2028), THU-CVML  
 - **Northeastern University** — B.S., Computer Science and Technology (2021–2025)
+
+<br clear="left"/>
 
 <br/>
 
@@ -82,6 +90,6 @@ For frozen few-step autoregressive video models, **when** retrieved far memory i
   <img alt="GitHub contribution grid snake" src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,18,21,24&height=80&section=footer&animation=twinkling" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=660874&height=80&section=footer&fontColor=ffffff&animation=twinkling" alt="footer"/>
 
 </div>
