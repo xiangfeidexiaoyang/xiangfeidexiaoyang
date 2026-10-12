@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 240" role="img" aria-label="Feiyang Liu">
+  <defs>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3"/>
+      <stop offset="55%" stop-color="#F3ECFF"/>
+      <stop offset="100%" stop-color="#E9E0F5"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5C1450"/>
+      <stop offset="100%" stop-color="#8E3A7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="240" fill="url(#paper)"/>
+  <rect x="36" y="36" width="788" height="168" fill="none" stroke="#6B1E56" stroke-width="0.75" opacity="0.35"/>
+  <rect x="44" y="44" width="772" height="152" fill="none" stroke="#B8956A" stroke-width="0.5" opacity="0.55"/>
+  <circle cx="730" cy="72" r="56" fill="#6B1E56" opacity="0.08"/>
+  <circle cx="768" cy="168" r="34" fill="#B8956A" opacity="0.22"/>
+  <path d="M36 198 H824" stroke="url(#violet)" stroke-width="1.2" opacity="0.5"/>
+  <text x="64" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#141414" letter-spacing="1.5">Feiyang Liu</text>
+  <text x="66" y="142" font-family="Georgia, serif" font-size="15" fill="#6B1E56" letter-spacing="5.5">MULTIMODAL VIDEO · AIGC</text>
+  <text x="66" y="168" font-family="Georgia, serif" font-size="13.5" fill="#4A4A4A" font-style="italic">Diffusion, flow, and the choreography of long-form motion</text>
+  <text x="66" y="210" font-family="Georgia, serif" font-size="11" fill="#6B1E56" letter-spacing="2">THU-CVML · COMPUTER APPLICATION TECHNOLOGY LAB</text>
+</svg>

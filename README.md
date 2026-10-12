@@ -1,100 +1,70 @@
-<div align="center">
+# Feiyang Liu
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Feiyang%20Liu&color=660874&stroke=ffffff&strokeWidth=0.5&fontSize=42&fontColor=ffffff&fontAlign=50&fontAlignY=45&desc=Multimodal%20Video%20%26%20AIGC&descSize=17&descAlign=50&descAlignY=68&descColor=e9d5ff" alt="header"/>
+### Multimodal video · AIGC · diffusion & flow  
+**THU-CVML** · Computer Application Technology Laboratory, Tsinghua University
 
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=22&pause=1400&color=660874&background=00000000&center=true&vCenter=true&width=580&lines=Video+%C2%B7+Diffusion+%C2%B7+Flow;Text%2FImage+%E2%86%92+World+in+Motion;Where+memory+meets+the+denoising+path" alt="Typing SVG" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/header.svg" alt="Feiyang Liu — multimodal video and AIGC" width="100%"/>
+</p>
 
-<br/>
+<p align="center">
+  <a href="mailto:liufy26@mails.tsinghua.edu.cn"><strong>Email</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://thu-cvml.github.io/"><strong>THU-CVML</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/xiangfeidexiaoyang"><strong>GitHub</strong></a>
+</p>
 
-<a href="mailto:liufy26@mails.tsinghua.edu.cn"><img src="https://img.shields.io/badge/✉_liufy26@mails.tsinghua.edu.cn-660874?style=social&logoColor=white" alt="email"/></a>
-&nbsp;&nbsp;
-<a href="https://thu-cvml.github.io/"><img src="https://img.shields.io/badge/THU--CVML-Lab-9370DB?style=social" alt="lab"/></a>
-&nbsp;&nbsp;
-<a href="https://github.com/xiangfeidexiaoyang"><img src="https://img.shields.io/badge/@xiangfeidexiaoyang-181717?style=social&logo=github" alt="github"/></a>
+<p align="center"><em>Advisor · <a href="https://thu-cvml.github.io/Overview/Professor/">Prof. Chun Yuan</a></em></p>
 
-</div>
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/sec-research.svg" alt="" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=44&text=Research&fontSize=19&fontColor=660874&color=FDFBFF&stroke=660874&strokeWidth=0.3" alt="research section"/>
+I study **multimodal generative AI** as a time-based medium: **text- and image-conditioned video**, diffusion and flow matching, autoregressive T2V/TI2V, and the tension between **long-horizon memory** and **physical plausibility**. When learning helps generation, I work on post-training—SFT, GRPO, on-policy distillation—with **event-structured credit** for video and multi-step agents.
 
-<p align="center"><em>Computer Application Technology Laboratory, Tsinghua University</em><br/>
-Advisor · <a href="https://thu-cvml.github.io/Overview/Professor/">Prof. Chun Yuan</a></p>
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/sec-publications.svg" alt="" width="100%"/>
 
-> **Multimodal generative AI** and **video AIGC** — text-/image-conditioned diffusion and flow matching, autoregressive T2V/TI2V, long-horizon memory, physics-aware evaluation. **Post-training** (SFT, GRPO, OPD) when it sharpens generative rollouts: event-structured credit for video and multi-step agents.
+#### Event-Span GRPO  
+*Event-level Credit Assignment for Physics-aligned Video Generation*  
+**First author** · manuscript in preparation  
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=44&text=Publications&fontSize=19&fontColor=660874&color=FDFBFF&stroke=660874&strokeWidth=0.3" alt="publications section"/>
+Group-relative advantages on **physical event spans** (contact, collision, free fall, staticity), not entire clips. Built on DanceGRPO with a **Wan2.2-class TI2V** backbone; evaluated on PhysRVG / Physics-IQ with quality held separate from physics.
 
-<table>
-<tr><td>
+#### Late Forcing  
+*Low-Noise Memory Injection for Frozen Few-Step Video Generators*  
+**First author** · manuscript in preparation  
 
-**Event-Span GRPO** · *Event-level Credit Assignment for Physics-aligned Video Generation*  
-`First author` · manuscript in preparation  
+In few-step autoregressive video, **when** far memory enters the denoising path governs identity versus progression. **Late Forcing** is training-free: low-noise injection, early-step withholding, optional draft-based re-ranking; composes with memory routers at fixed NFE.
 
-Group-relative advantages on **physical event spans** (contact, collision, free fall, staticity), not whole clips — DanceGRPO on a **Wan2.2-class TI2V** backbone; PhysRVG / Physics-IQ with decoupled quality metrics.
+#### HeadMoE  
+*Data-free Sparse MoE Merging for Multi-site Specialized Models*  
+**First author** · manuscript in preparation  
 
-<br/>
+Shared trunk, low-rank head experts, training-free routing—multi-site vision without pooling raw data.
 
-**Late Forcing** · *Low-Noise Memory Injection for Frozen Few-Step Video Generators*  
-`First author` · manuscript in preparation  
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/sec-code.svg" alt="" width="100%"/>
 
-**When** far memory enters the denoising path shapes identity vs. progression. Training-free low-noise injection, early-step withholding, optional draft re-ranking; stacks on memory routers at fixed NFE.
+<p align="center">
+  <a href="https://github.com/xiangfeidexiaoyang/robot_phys_video_gen"><strong>robot_phys_video_gen</strong></a><br/>
+  <sub>Physics-anchored robot manipulation video — multimodal AIGC pipeline (WAM-oriented)</sub>
+</p>
 
-<br/>
+<img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/sec-education.svg" alt="" width="100%"/>
 
-**HeadMoE** · *Data-free Sparse MoE Merging for Multi-site Specialized Models*  
-`First author` · manuscript in preparation  
+| | |
+|:--|:--|
+| <img src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/main/assets/tsinghua-mark.svg" width="76" alt="Tsinghua University"/> | **Tsinghua University**<br/>M.S., Electronic Information · THU-CVML<br/>2026 — 2028 |
+| | **Northeastern University**<br/>B.S., Computer Science and Technology<br/>2021 — 2025 |
 
-Low-rank head experts and a training-free router — multi-site vision models without centralizing raw data.
-
-</td></tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&height=44&text=Code&fontSize=19&fontColor=660874&color=FDFBFF&stroke=660874&strokeWidth=0.3" alt="code section"/>
-
-<div align="center">
-
-[![robot_phys_video_gen](https://img.shields.io/badge/robot__phys__video__gen-multimodal+video+AIGC-660874?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://github.com/xiangfeidexiaoyang/robot_phys_video_gen)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&height=44&text=Education&fontSize=19&fontColor=660874&color=FDFBFF&stroke=660874&strokeWidth=0.3" alt="education section"/>
-
-<table>
-<tr>
-<td width="88" align="center" valign="top">
-  <img src="./assets/tsinghua-logo.svg" alt="Tsinghua University" width="72"/>
-</td>
-<td valign="top">
-
-**Tsinghua University**  
-M.S., Electronic Information · THU-CVML  
-2026 — 2028  
+**Stack ·** Python · PyTorch · C++ · LaTeX · Docker · Linux · Git
 
 <br/>
 
-**Northeastern University**  
-B.S., Computer Science and Technology  
-2021 — 2025  
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg"/>
+    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
+</p>
 
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&height=44&text=Stack&fontSize=19&fontColor=660874&color=FDFBFF&stroke=660874&strokeWidth=0.3" alt="stack section"/>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,linux,docker,git,latex,vscode&perline=8&theme=light" alt="skills"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/xiangfeidexiaoyang/xiangfeidexiaoyang/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=660874&height=64&section=footer&fontColor=ffffff&animation=fadeIn" alt="footer"/>
-
-</div>
+<p align="center"><sub>— · —</sub></p>
