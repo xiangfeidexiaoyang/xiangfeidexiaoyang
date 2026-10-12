@@ -22,6 +22,10 @@ Group-relative advantages over **physical event spans** (contact, collision, fre
 First author · manuscript in preparation  
 Shared trunk with low-rank, site-specific attention / classification heads and a training-free router from input–subspace alignment; targets federated-style deployment without pooling raw data.
 
+*Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators*  
+First author · manuscript in preparation  
+For frozen few-step autoregressive video models, **when** retrieved far memory is exposed along the denoising trajectory—not only **what** is retrieved—controls the trade-off between revisit identity and scene progression. **Late Forcing** is a training-free schedule that injects far memory only at low-noise steps, withholds it early in the chunk, and optionally re-ranks retrieval candidates with a memory-free first-step draft; designed to compose with existing section-, layer-, and query-level memory routers under fixed NFE.
+
 ---
 
 #### Code
