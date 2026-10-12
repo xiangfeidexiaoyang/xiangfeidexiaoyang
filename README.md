@@ -1,7 +1,7 @@
 ### Feiyang Liu
 
 **M.S. Student** · Electronic Information  
-[THU-CVML](https://thu-cvml.github.io/) · Tsinghua Shenzhen International Graduate School, Tsinghua University  
+[THU-CVML](https://thu-cvml.github.io/) · Computer Application Technology Laboratory, Tsinghua University  
 Advisor: [Prof. Chun Yuan](https://thu-cvml.github.io/Overview/Professor/)
 
 **Email:** [liufy26@mails.tsinghua.edu.cn](mailto:liufy26@mails.tsinghua.edu.cn)
