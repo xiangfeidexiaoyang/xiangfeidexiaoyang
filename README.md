@@ -33,17 +33,17 @@
 ### 📄 Manuscripts
 
 > 🎬 **Event-Span GRPO: Event-level Credit Assignment for Physics-aligned Video Generation**  
-> *Feiyang Liu* (first author) · manuscript in preparation  
+> *Feiyang Liu* (first author)  
 >  
 > Event-level group-relative advantages for physics-aligned video RL; DanceGRPO with a Wan2.2-class TI2V backbone.
 
 > 🎞️ **Late Forcing: Low-Noise Memory Injection for Frozen Few-Step Video Generators**  
-> *Feiyang Liu* (first author) · manuscript in preparation  
+> *Feiyang Liu* (first author)  
 >  
 > Training-free scheduling of far-memory injection along the denoising trajectory for few-step autoregressive video.
 
 > 🧩 **HeadMoE: Data-free Sparse MoE Merging for Multi-site Specialized Models**  
-> *Feiyang Liu* (first author) · manuscript in preparation  
+> *Feiyang Liu* (first author)  
 >  
 > Sparse MoE merging with a shared trunk and training-free routing without pooling raw data.
 
